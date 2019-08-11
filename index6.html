@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title></title>
+    <!--引入文件，必须注意导入顺序-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index6.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<script src="js/head.js"></script>
+
+<div class="container">
+    <div id="slider" data-state="0">
+        <div class="ui-big-images">
+            <div class="ui-big-image" data-key="0">
+                <img src="//img1.selfimg.com.cn/Lvogue151/2018/01/17/1516178014_TliBHD.jpg" alt=""/>
+            </div>
+            <div class="ui-big-image" data-key="1">
+                <img src="//img1.selfimg.com.cn/Lvogue151/2018/01/17/1516178201_7cJhOg.jpg" alt=""/>
+            </div>
+            <div class="ui-big-image" data-key="2">
+                <img src="//img3.selfimg.com.cn/Lvogue151/2018/01/17/1516177861_lKzLVn.jpg" alt=""/>
+            </div>
+            <div class="ui-big-image" data-key="3">
+                <img src="//img3.selfimg.com.cn/Lvogue151/2018/01/17/1516176953_piouyi.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="ui-thumbnails">
+            <div class="ui-thumbnail" tabindex="-1" data-key="0">
+                <img  src="//img1.selfimg.com.cn/Lvogue151/2018/01/17/1516178014_TliBHD.jpg" alt="" />
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+            <div class="ui-thumbnail" tabindex="-1" data-key="1">
+                <img src="//img1.selfimg.com.cn/Lvogue151/2018/01/17/1516178201_7cJhOg.jpg" alt="" />
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+            <div class="ui-thumbnail" tabindex="-1" data-key="2">
+                <img src="//img3.selfimg.com.cn/Lvogue151/2018/01/17/1516177861_lKzLVn.jpg" alt="" />
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+            <div class="ui-thumbnail" tabindex="-1" data-key="3">
+                <img src="//img3.selfimg.com.cn/Lvogue151/2018/01/17/1516176953_piouyi.jpg" alt=""/>
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+        </div>
+        <div class="ui-content">
+
+            <nav class="ui-nav">
+                <button id="prev" tabindex="-1" title="Previous">&lt;</button>
+                <button id="next" tabindex="-1" title="Next">&gt;</button>
+            </nav>
+
+            <div class="ui-articles">
+                <article class="ui-article" data-key="0">
+                    <h2 class="ui-heading">22岁的“甜茶”，除了少年气还有好演技</h2>
+                    <p class="ui-paragraph">满满的灵气，和出色的演技， 美少年“甜茶”，未来可期。</p>
+                </article>
+                <article class="ui-article" data-key="1">
+                    <h2 class="ui-heading">40年了，这部电影依然时髦到飞起</h2>
+                    <p class="ui-paragraph">1977、1980、1983三部正传，1999、2002、2005三部前传，再到2015年久违的第七部（接着1983版的故事）和现在上映的第八部，《星...</p>
+                </article>
+                <article class="ui-article" data-key="2">
+                    <h2 class="ui-heading">年度最美40张电影海报，拯救你的手机壁纸</h2>
+                    <p class="ui-paragraph">不同类型的电影，在海报风格上也相去甚远，即便是同一部电影，也会有预告海报、正式海报、艺术海报、各国家地区海报的区别。我...</p>
+                </article>
+                <article class="ui-article" data-key="3">
+                    <h2 class="ui-heading">她穿遍了这世上最美的裙子，穿出了自己最美的样子</h2>
+                    <p class="ui-paragraph">如果在这个浩瀚宇宙中，存在着一个由裙子主宰的世界，那地球上的“英伦玫瑰”凯拉·奈特莉（Keira Knightley）一定是裙子们所...</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div class="module whats-new mt-5">
+        <div class="module-hd">
+            <div class="line"></div>
+            <div class="inner-wrapper">
+                <div class="module-title">
+                    <h2>
+                        <a href="#">What ’s New 今日推荐</a>
+                    </h2>
+                </div>
+                <div class="slide-ads-wrapper">
+                    <div class="slid-ads">
+                        <div class="sub-links left-top">
+                            <a href="#">明星</a>
+                            <em>|</em>
+                            <a href="#">看电影</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <ul class="media-list">
+            <div class="jumbotron">
+            <li class="media">
+                <div class="media-left ml-3">
+                <video  width="800px" class="media-object rounded-circle" controls src="videos/index6_05.mp4" alt="..."/>
+                </div>
+                <div class="media-body ml-4">
+                    <h4 class="media-heading">刘昊然</h4>
+                    新星升起，未来可期
+                </div>
+
+            </li>
+            </div>
+            <div class="jumbotron">
+                <li class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">盛一伦</h4>
+                        与盛一伦一起，逐梦而舞
+                    </div>
+                    <div class="media-right">
+
+                        <video width="800px" class="media-object rounded-circle" controls src="videos/index6_02.mp4" alt="..."/>
+                    </div>
+                </li>
+            </div>
+            <div class="jumbotron">
+                <li class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">朱一龙&白宇</h4>
+                        “镇魂”你我一起
+                    </div>
+                    <div class="media-right">
+                        <video width="800px" class="media-object rounded-circle" controls src="videos/index6_04.mp4" alt="..."/>
+                    </div>
+                </li>
+            </div>
+            <div class="jumbotron">
+                <li class="media">
+                    <div class="media-left">
+                        <video width="800px" class="media-object rounded-circle" controls src="videos/index6_01.mp4" alt="..."/>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">黄景瑜</h4>
+                        可爱与硬朗并存的"少年气势"
+                    </div>
+
+                </li>
+            </div>
+            <div class="jumbotron">
+                <li class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">肖战</h4>
+                       生活很长，一直很久远
+                    </div>
+                    <div class="media-right">
+                        <video width="800px" class="media-object rounded-circle" controls src="videos/index06_07.mp4" alt="..."/>
+                    </div>
+                </li>
+            </div>
+        </ul>
+
+</div>
+
+<script src="js/foot.js"></script>
+<script src='https://unpkg.com/flipping@1.1.0/dist/flipping.web.js'></script>
+<script>
+    console.clear();
+
+    const elPrevButton = document.querySelector('#prev');
+    const elNextButton = document.querySelector('#next');
+    const flipping = new Flipping();
+
+    const elImages = Array.from(document.querySelectorAll('.ui-big-image'));
+    const elThumbnails = Array.from(document.querySelectorAll('.ui-thumbnail'));
+
+    let state = {
+        photo: 0
+    };
+
+    function send(event) {
+        // read cuticle positions
+        flipping.read();
+
+        const elActives = document.querySelectorAll('[data-active]');
+
+        Array.from(elActives)
+                .forEach(el => el.removeAttribute('data-active'));
+
+        switch (event) {
+            case 'PREV':
+                state.photo--;
+                // Math.max(state.photo - 1, 0);
+                break;
+            case 'NEXT':
+                state.photo++;
+                // Math.min(state.photo + 1, elImages.length - 1);
+                break;
+            default:
+                state.photo = +event;
+                break;
+        }
+
+        var len = elImages.length;
+        // Loop Around
+        //state.photo = ( ( state.photo % len) + len ) % len;
+        state.photo = Math.max(0, Math.min( state.photo, len - 1) );
+
+        Array.from(document.querySelectorAll(`[data-key="${state.photo}"]`))
+    .forEach( el => {
+            el.setAttribute('data-active', true);
+    });
+
+    // execute the FLIP animation
+    flipping.flip();
+    }
+
+    elThumbnails.forEach( thumb => {
+        thumb.addEventListener('click', () => {
+        send(thumb.dataset.key);
+    });
+    });
+
+    elPrevButton.addEventListener('click', () => {
+        send('PREV');
+    });
+
+    elNextButton.addEventListener('click', () => {
+        send('NEXT');
+    });
+
+    send(0);
+</script>
+
+</body>
+</html>

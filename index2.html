@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title></title>
+    <!--引入文件，必须注意导入顺序-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/web.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<script src="js/head.js"></script>
+<div class="container">
+    <div id="slider" data-state="0">
+        <div class="ui-big-images">
+            <div class="ui-big-image" data-key="0">
+                <img src="http://img3.selfimg.com.cn/Lvogue851/2018/10/16/1539674389_2UXN5l.jpg" alt=""/>
+            </div>
+            <div class="ui-big-image" data-key="1">
+                <img src="http://img1.selfimg.com.cn/Lvogue851/2018/08/30/1535598900_XmrIM1.jpg" alt=""/>
+            </div>
+            <div class="ui-big-image" data-key="2">
+                <img src="http://img2.selfimg.com.cn/Lvogue851/2018/08/29/1535513428_64JYWr.jpg" alt=""/>
+            </div>
+            <div class="ui-big-image" data-key="3">
+                <img src="//img2.selfimg.com.cn/Lvogue851/2018/08/21/1534844008_AnNpBW.jpg" alt=""/>
+            </div>
+            <div class="ui-big-image" data-key="4">
+                <img src="//img1.selfimg.com.cn/Lvogue851/2018/08/21/1534844024_RhygAs.jpg" alt=""/>
+            </div>
+            <div class="ui-big-image" data-key="5">
+                <img src="//img1.selfimg.com.cn/Lvogue851/2018/08/07/1533612194_o9JSmd.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="ui-thumbnails">
+            <div class="ui-thumbnail" tabindex="-1" data-key="0">
+                <img  src="http://img3.selfimg.com.cn/Lvogue851/2018/10/16/1539674389_2UXN5l.jpg" alt="" />
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+            <div class="ui-thumbnail" tabindex="-1" data-key="1">
+                <img src="http://img1.selfimg.com.cn/Lvogue851/2018/08/30/1535598900_XmrIM1.jpg" alt="" />
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+            <div class="ui-thumbnail" tabindex="-1" data-key="2">
+                <img src="//img2.selfimg.com.cn/Lvogue851/2018/08/29/1535513428_64JYWr.jpg" alt="" />
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+            <div class="ui-thumbnail" tabindex="-1" data-key="3">
+                <img src="//img2.selfimg.com.cn/Lvogue851/2018/08/21/1534844008_AnNpBW.jpg" alt=""/>
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+            <div class="ui-thumbnail" tabindex="-1" data-key="4">
+                <img src="//img1.selfimg.com.cn/Lvogue851/2018/08/21/1534844024_RhygAs.jpg" alt="" />
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+            <div class="ui-thumbnail" tabindex="-1" data-key="5">
+                <img src="//img1.selfimg.com.cn/Lvogue851/2018/08/07/1533612194_o9JSmd.jpg" alt="" />
+                <div class="ui-cuticle" data-flip-key="cuticle"></div>
+            </div>
+        </div>
+        <div class="ui-content">
+
+            <nav class="ui-nav">
+                <button id="prev" tabindex="-1" title="Previous">&lt;</button>
+                <button id="next" tabindex="-1" title="Next">&gt;</button>
+            </nav>
+
+            <div class="ui-articles">
+                <article class="ui-article" data-key="0">
+                    <h2 class="ui-heading">丝巾</h2>
+                    <p class="ui-paragraph">虽然丝巾算是我们衣橱里必备的配饰之一了，但提到丝巾，很多人最先想到的还是空姐，还有妈妈们拍照时候的道具，有没有？其实，...</p>
+                </article>
+                <article class="ui-article" data-key="1">
+                    <h2 class="ui-heading">配裙子的鞋</h2>
+                    <p class="ui-paragraph">可以配裙子的鞋有很多，但很多时候搭配不对或者选错款式就会用力过猛，时髦得不刻意是什么样的？天后王菲就是最好的示范。 </p>
+                </article>
+                <article class="ui-article" data-key="2">
+                    <h2 class="ui-heading">入秋最时髦的50件卫衣 全在这里了</h2>
+                    <p class="ui-paragraph">转眼入秋，卫衣依然是街拍中最热门的单品。最近，时尚达人们的街拍又update了一波又穿了不少新款卫衣。今天，我们就整理了2018... </p>
+                </article>
+                <article class="ui-article" data-key="3">
+                    <h2 class="ui-heading">喜欢夏天的理由啊 是因为可以穿小白裙</h2>
+                    <p class="ui-paragraph">炎炎夏日，你的衣橱里最需要这么一条小白裙，它简单、高级、干净又清凉，它是最适合夏天的裙子。 </p>
+                </article>
+                <article class="ui-article" data-key="4">
+                    <h2 class="ui-heading">白衬衫买哪件？ 买到好看的你也不一定会搭</h2>
+                    <p class="ui-paragraph">白衬衫作为最常见的基本款，相信每个人的衣橱里都有那么几件。它看似普通，其实变化很多，如果不想穿得太正式，款式和搭配都很...</p>
+                </article>
+                <article class="ui-article" data-key="5">
+                    <h2 class="ui-heading">白T恤要穿时髦 看这一篇就够了</h2>
+                    <p class="ui-paragraph">我们一直强调，一件白T恤，是你衣橱里最聪明的投资——无论什么季节、何种场合，它都能为你的造型带来无限可能。...</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div class="module-one dress">
+        <div class="module-hd">
+            <div class="line"></div>
+            <div class="inner-wrapper">
+                <div class="module-title m-auto">
+                    <h2>
+                        <a href="#">Dress Code 衣Q进阶</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="module-bd">
+            <div class="item-box ml-5">
+                <a href="#">
+                    <img src="//img1.selfimg.com.cn/Lvogue854/2017/06/19/1497866977_Vh1nuM.png" alt=""/>
+                    <span>恰到好处的露，能把性感玩得更高级</span>
+                </a>
+            </div>
+            <div class="item-box">
+                <a href="#">
+                    <img src="//img1.selfimg.com.cn/Lvogue854/2018/06/04/1528094395_6vnm8e.jpg" alt=""/>
+                    <span>轻薄的裙子已备好 你还要懂得“...</span>
+                </a>
+            </div>
+            <div class="div1"></div>
+        </div>
+    </div>
+
+    <div class="module">
+        <div class="module-bd">
+            <div class="talk-item">
+                <div class="topic-img">
+                    <a href="#">
+                        <img src="//img0.selfimg.com.cn/vogue248X248/2019/08/04/1564931487_7M6M8A.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="detail-info">
+                    <a href="#" class="item-title">夏天的正确打开方式——开衩裙</a>
+                    <div class="item-des">
+                        夏天的正确打开方式是什么?当然是买裙子!然而这么多款式里有着开衩设计的...
+                        <a href="#">[更多]</a>
+                    </div>
+                </div>
+            </div>
+            <div class="talk-item">
+                <div class="topic-img">
+                    <a href="#">
+                        <img src="//img0.selfimg.com.cn/vogue248X248/2019/08/04/1564930482_QlhI7b.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="detail-info">
+                    <a href="#" class="item-title">敢不敢穿得再清凉一点？高腰裤帮你一步到位</a>
+                    <div class="item-des">
+                        今年夏天一浪热过一浪，衬衫短袖也抵挡不过高温的侵袭，想换crop top却担...
+                        <a href="#">[更多]</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div2"></div>
+        </div>
+    </div>
+
+    <div class="module module-extend">
+        <div class="module-hd">
+            <div class="line"></div>
+            <div class="inner-wrapper">
+                <div class="module-title">
+                    <h2>
+                        <a href="#">VOGUE Stylist 风格示范</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="module-bd img-cards">
+            <div class="imgcard">
+                <a href="#">
+                    <img src="//img2.selfimg.com.cn/vogue270X270/2017/11/16/1510813257_zsrtUO.jpg" alt=""/>
+                    <span>天鹅绒</span>
+                </a>
+            </div>
+            <div class="imgcard">
+                <a href="#">
+                    <img src="//img2.selfimg.com.cn/vogue270X270/2017/03/23/1490271761_Runcz4.jpg" alt=""/>
+                    <span>刺绣风尚</span>
+                </a>
+            </div>
+            <div class="imgcard">
+                <a href="#">
+                    <img src="//img3.selfimg.com.cn/vogue270X270/2019/01/11/1547203031_fO3b9g.jpg" height="236px" width="236px" alt=""/>
+                    <span>牛油果绿</span>
+                </a>
+            </div>
+            <div class="div3"> </div>
+        </div>
+    </div>
+</div>
+<script src="js/foot.js"></script>
+<script src='https://unpkg.com/flipping@1.1.0/dist/flipping.web.js'></script>
+<script>
+    console.clear();
+
+    const elPrevButton = document.querySelector('#prev');
+    const elNextButton = document.querySelector('#next');
+    const flipping = new Flipping();
+
+    const elImages = Array.from(document.querySelectorAll('.ui-big-image'));
+    const elThumbnails = Array.from(document.querySelectorAll('.ui-thumbnail'));
+
+    let state = {
+        photo: 0
+    };
+
+    function send(event) {
+        // read cuticle positions
+        flipping.read();
+
+        const elActives = document.querySelectorAll('[data-active]');
+
+        Array.from(elActives)
+                .forEach(el => el.removeAttribute('data-active'));
+
+        switch (event) {
+            case 'PREV':
+                state.photo--;
+                // Math.max(state.photo - 1, 0);
+                break;
+            case 'NEXT':
+                state.photo++;
+                // Math.min(state.photo + 1, elImages.length - 1);
+                break;
+            default:
+                state.photo = +event;
+                break;
+        }
+
+        var len = elImages.length;
+        // Loop Around
+        //state.photo = ( ( state.photo % len) + len ) % len;
+        state.photo = Math.max(0, Math.min( state.photo, len - 1) );
+
+        Array.from(document.querySelectorAll(`[data-key="${state.photo}"]`))
+    .forEach( el => {
+            el.setAttribute('data-active', true);
+    });
+
+    // execute the FLIP animation
+    flipping.flip();
+    }
+
+    elThumbnails.forEach( thumb => {
+        thumb.addEventListener('click', () => {
+        send(thumb.dataset.key);
+    });
+    });
+
+    elPrevButton.addEventListener('click', () => {
+        send('PREV');
+    });
+
+    elNextButton.addEventListener('click', () => {
+        send('NEXT');
+    });
+
+    send(0);
+</script>
+
+</body>
+</html>

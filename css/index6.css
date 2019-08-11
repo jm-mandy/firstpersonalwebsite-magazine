@@ -1,0 +1,99 @@
+.module {
+    min-width: 1000px;
+}
+.whats-new {
+    margin-bottom: 50px;
+}
+.whats-new .module-hd {
+    margin-bottom: 35px;
+}
+.module-hd {
+    position: relative;
+}
+.module-hd .line {
+    height: 24px;
+    position:absolute;
+    left:0;
+    width:100%;
+    border-bottom:1px solid #d8d8d8;
+}
+.inner-wrapper {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.whats-new .module-hd .module-title {
+    width: 320px;
+    margin:0 auto;
+    position: relative;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.whats-new .module-hd h2 a{
+    height:53px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/title/title-common.jpg) -10px 0 no-repeat;
+}
+.module-hd h2 a {
+    display: block;
+    text-indent: -9999px;
+}
+.module-hd a {
+    font-size: 16px;
+    color: #555;
+}
+a{
+    text-decoration: none;
+}
+.whats-new .slide-ads-wrapper {
+    top: 30px;
+}
+.whats-new .slide-ads-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 17px;
+    height: 24px;
+    overflow: hidden;
+}
+.whats-new .slide-ads {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.whats-new .slide-ads > div {
+    height: 24px;
+    overflow: hidden;
+    position: relative;
+}
+.whats-new .slide-ads .sub-links {
+    top: 0;
+    width:340px;
+}
+.module-hd .left-top, .module-hd .left-bottom {
+    left: 0;
+    text-align: right;
+}
+.module-hd .sub-links {
+    position: absolute;
+    height: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.module-hd .left-top a {
+    margin-right: 15px;
+}
+.module-hd .sub-links em {
+    margin-right: 15px;
+}
+.module-hd .sub-links em {
+    padding: 5px;
+    color: #8a8a8a;
+    font-style:normal;
+}

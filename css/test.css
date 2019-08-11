@@ -1,0 +1,126 @@
+ul{
+  list-style:none;
+}
+ul,li{
+  margin:0; padding:0;
+}
+hr{
+  border:1px solid rgb(239,239,239);
+}
+body{
+  font-size:12px;
+}
+body>ul>li{
+  float:left;
+  background-color:rgb(223,224,225);
+  color:rgb(145,144,145);
+  width:90px; height:15px;
+  border: 1px solid rgb(194,194,194);
+  border-width:10px 1px 10px 0;
+  border-top-color:rgb(223,224,225);
+  border-bottom-color:rgb(223,224,225);
+  text-align:center;
+  line-height:15px;
+  position:relative;
+}
+body>ul>li:last-child{
+  border-right:0;
+}
+
+body>ul>li:hover{
+  background-color:#fff;
+  border-top-width: 1px;
+  border-top-color: orangered;
+  border-bottom-width:1px;
+  border-bottom-color: #fff;
+  height:35px; line-height:35px;
+  cursor:pointer;
+}
+
+body>ul>li>ul{
+  clear:both;
+  background-color:#fff;
+  width:120px;
+  border:1px solid rgb(239,239,239); 
+  border-top:0;
+  position:absolute;
+  left:0;
+}
+
+body>ul>li>ul>li{
+  display:block;
+  background-color:#fff;
+  text-align:left;
+  padding-left:30px;
+  width:90px;
+  height:25px; line-height:25px;
+}
+body>ul>li:nth-child(2)>ul>li:nth-child(4){
+  padding-left:0;
+  width:120px;
+}
+body>ul>li:nth-child(4)>ul{
+  width:200px;
+}
+body>ul>li:nth-child(4)>ul>li{
+  float:left;
+}
+body>ul>li:nth-child(4)>ul>li:nth-child(2n+1){
+  width:40px;
+}
+body>ul>li:nth-child(4)>ul>li:nth-child(2n){
+  padding-left:10px
+}
+body>ul>li:nth-child(5)>ul>li{
+  font-weight:bold;
+}
+body>ul>li:nth-child(5)>ul>li:first-child{
+  height:130px;
+}
+body>ul>li:nth-child(5)>ul>li:last-child{
+  height:100px;
+}
+body>ul>li:nth-child(5)>ul>li li{
+  font-weight:normal;
+}
+
+body>ul>li:nth-child(2)>ul{
+  /* 如果只做单纯的显示，就这个：display:none; */
+  top:55px;
+  opacity:0;
+  transition:all .5s linear;
+}
+body>ul>li:nth-child(2):hover>ul{
+  /* 如果只做单纯的显示，就这个：display:block; */
+  top:35px;
+  opacity:1;
+}
+body>ul>li:nth-child(4)>ul{
+  /* 如果只做单纯的显示，就这个：display:none; */
+  top:35px;
+  opacity:0;
+  width:0px; height:0px;
+  overflow:hidden;
+  transition:all .5s linear;
+}
+body>ul>li:nth-child(4):hover>ul{
+  /* 如果只做单纯的显示，就这个：display:block; */
+  top:35px;
+  width:202px;
+  height:52px;
+  opacity:1;
+}
+body>ul>li:nth-child(5)>ul{
+  /* 如果只做单纯的显示，就这个：display:none; */
+  top:35px;
+  height:0px;
+  opacity:0;
+  overflow:hidden;
+  transition:all .5s linear;
+}
+
+body>ul>li:nth-child(5):hover>ul{
+  /* 如果只做单纯的显示，就这个：display:block; */
+  opacity:1;
+  height:231px;
+}

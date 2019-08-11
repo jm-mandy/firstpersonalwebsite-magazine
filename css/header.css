@@ -1,0 +1,234 @@
+.top-1 .breadcrumb-item+.breadcrumb-item::before{
+    content: "|";
+    color:#eee;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.top-1 .breadcrumb-item a{
+    color:#c6c8ca;
+}
+.top-1 .breadcrumb{
+    background-color: transparent;
+}
+
+
+.head-bg img{
+    width:100%;
+}
+.head {
+    top:80px;
+    left: 200px;
+}
+.top-1{
+    background-color:#1A130C ;
+}
+.top-1 .nav{
+    float: left;
+    margin-left: 400px;
+}
+.top-1 .head img{
+    float: left;
+}
+.top-1 .search{
+    top:7px;
+    left:544px;
+}
+.top-1 .search input{
+    width:289px;
+    height:35px;
+}
+.top-1 button{
+    height: 31px;
+    border-radius: 8%;
+}
+.top-1 .register{
+    float:left;
+    top:3px;
+    right:-250px;
+}
+.top-1 .kong{
+    clear:both;
+}
+.top-1 .position-absolute .register a{
+    color:#c6c8ca;
+}
+.top-1>ul>li>ul{
+    clear:both;
+    background-color:#fff;
+
+}
+.top-2{
+    margin-left: 200px;
+    margin-top:10px;
+}
+.top-2 .breadcrumb-item+.breadcrumb-item::before{
+    content: "|";
+    color:#c6c8ca;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+.top-2 .breadcrumb-item a{
+    color:#555;
+    font-size:18px;
+}
+.top-2 .breadcrumb{
+    background-color: transparent;
+    top:10px;
+}
+
+.top-2 .nav-part1 a{
+    font-size:20px;
+    color:#ce0000;
+
+}
+.top-2 .nav-part2 a{
+    font-size:18px;
+    color:#000000;
+}
+.top-2 .nav-part2 .word {
+    font-size:20px;
+    font-style:italic;
+}
+.top-2 .nav-part3{
+    width:74px;
+    height:50px;
+}
+.top-2 .nav-part3 a{
+    font-size:16px;
+    color:#000000;
+}
+.top-2 ul{
+    list-style:none;
+}
+.top-2 ul,li{
+    margin:0; padding:0;
+    list-style:none;
+}
+.top-2 hr{
+    border:0.4px solid #cac6c6;
+    width:100%;
+}
+/*body{*/
+/*font-size:12px;*/
+/*}*/
+.top-2 ul>li{
+    float:left;
+    /*background-color:rgb(223,224,225);*/
+    /*color:rgb(145,144,145);*/
+    width:90px; height:25px;
+    /*border: 1px solid #c6c8ca;*/
+    /*border-width:10px 1px 10px 0;*/
+    /*border-top-color:rgb(223,224,225);*/
+    /*border-bottom-color:rgb(223,224,225);*/
+    text-align:center;
+    line-height:25px;
+    position:relative;
+}
+.top-2 ul>li:last-child{
+    border-right:0;
+}
+
+.top-2 ul>li:hover{
+    background-color:#fff;
+    border-top-width: 1px;
+    border-top-color: orangered;
+    border-bottom-width:1px;
+    border-bottom-color: #fff;
+    height:35px; line-height:35px;
+    cursor:pointer;
+}
+
+.top-2 ul>li>ul{
+    clear:both;
+    background-color:#fff;
+    width:100px;
+    border:1px dotted #bfb9b9;
+    border-top:0;
+    position:absolute;
+    left:0;
+}
+
+.top-2 ul>li>ul>li{
+    display:block;
+    background-color:#fff;
+    text-align:center;
+    /*padding-left:30px;*/
+    width:90px;
+    height:25px; line-height:25px;
+}
+.top-2 ul>li:nth-child(2)>ul>li:nth-child(4){
+    padding-left:0;
+    width:100px;
+}
+
+.top-2 ul>li:nth-child(2)>ul{
+    /* 如果只做单纯的显示，就这个：display:none; */
+    top:55px;
+    opacity:0;
+    transition:all .5s linear;
+}
+.top-2 ul>li:nth-child(2):hover>ul{
+    /* 如果只做单纯的显示，就这个：display:block; */
+    top:35px;
+    opacity:1;
+}
+.top-2 ul>li:nth-child(3)>ul{
+    /* 如果只做单纯的显示，就这个：display:none; */
+    top:55px;
+    opacity:0;
+    transition:all .5s linear;
+}
+.top-2 ul>li:nth-child(3):hover>ul{
+    /* 如果只做单纯的显示，就这个：display:block; */
+    top:35px;
+    opacity:1;
+}
+.top-2 ul>li:nth-child(4)>ul{
+    /* 如果只做单纯的显示，就这个：display:none; */
+    top:55px;
+    opacity:0;
+    transition:all .5s linear;
+}
+.top-2 ul>li:nth-child(4):hover>ul{
+    /* 如果只做单纯的显示，就这个：display:block; */
+    top:35px;
+    opacity:1;
+}
+.top-2 ul>li:nth-child(5)>ul{
+    /* 如果只做单纯的显示，就这个：display:none; */
+    top:55px;
+    opacity:0;
+    transition:all .5s linear;
+}
+
+.top-2 ul>li:nth-child(5):hover>ul{
+    /* 如果只做单纯的显示，就这个：display:block; */
+    top:35px;
+    opacity:1;
+}
+.n1{
+    clear: both;
+}
+.top-1{
+    background-color:#1A130C ;
+}
+.title {
+    height: 178px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.title div {
+
+    width: 485px;
+    height: 109px;
+    margin: 0px auto auto auto;
+}
+.modal-content{
+    width:500px;
+    height:380px;
+}
+.modal-footer{
+    width:498px;
+    height:64px;
+}

@@ -1,0 +1,339 @@
+.module {
+    min-width: 1000px;
+}
+.module .module-bd {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+.module .module-bd  a{
+    color:#000;
+    text-decoration: none;
+}
+
+.dress .module-hd {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.issue .module-hd {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.module-hd {
+    position: relative;
+    float:left;
+}
+.module-hd .line {
+    position: absolute;
+    left: 0;
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+}
+.inner-wrapper {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.dress .module-hd .module-title {
+    width: 323px;
+    margin:0 auto;
+    position:relative;
+}
+.issue .module-hd .module-title {
+    width: 323px;
+    margin:0 auto;
+    position:relative;
+}
+.dress .module-hd h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.issue .module-hd h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.dress .module-hd h2 a {
+    height: 88px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/title/title-invogue.jpg) 0 -86px no-repeat;
+}
+.module-hd h2 a {
+    display: block;
+    text-indent: -9999px;
+    font-size: 16px;
+    color: #555;
+}
+
+.module-one .dress .module-bd {
+    position: relative;
+    width: 1000px;
+
+    margin: 0 auto;
+}
+.dress .module-bd .div1{
+    clear:both;
+}
+.div2{
+    clear:both;
+}
+.div3{
+    clear:both;
+}
+.module-one .module-bd .item-box{
+    display:flex;
+    float:left;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    width:500px;
+}
+.module-one .module-bd .item-box a span{
+    position:relative;
+    top:-70px;
+    left:27px;
+    color:#fff;
+    font-size:28px;
+    z-index: 10;
+}
+.module-bd .talk-item{
+    width:481px;
+    height:250px;
+    float:left;
+    margin-right: 19px;
+}
+.module-bd .talk-item .topic-img {
+    float: left;
+    width: 248px;
+    height: 248px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #d8d8d8;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -mz-transition: all .3s;
+    -o-transition: all .3s;
+}
+.module-bd .talk-item .topic-img img {
+    /*position: absolute;*/
+    /*z-index: 100;*/
+}
+.module-bd .talk-item .detail-info {
+    float: right;
+    width: 230px;
+    height: 228px;
+    margin-top: 9px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    position: relative;
+}
+.module-bd .talk-item .item-title {
+    display: block;
+    background-color: #000;
+    font-size: 17px;
+    color: #fff;
+    padding: 16px 20px;
+    margin: 27px auto auto -8px;
+    position: relative;
+    z-index: 101;
+    height: 78px;
+    word-break: break-all;
+}
+.module-bd .talk-item .item-des {
+    font-size: 14px;
+    color: #666;
+    padding: 20px;
+}
+.module-bd .talk-item .item-des a {
+    color: #666;
+}
+
+.module-extend {
+    min-width: 1000px;
+}
+.module-extend .module-hd {
+    margin-top: 67px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.module-extend .module-hd .module-title {
+    width: 312px;
+    margin: 0 auto;
+    position: relative;
+}
+.module-extend .module-hd h2{
+    width:409px;
+    height:86px;
+}
+.module-extend .module-hd h2 a {
+    height: 86px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/title/title-invogue.jpg) 0 0 no-repeat;
+}
+
+.module-extend .img-cards {
+    margin-top: 45px;
+    padding-bottom: 45px;
+}
+.module-extend .imgcard {
+    width: 270px;
+    border: 1px solid #d8d8d8;
+    padding: 12px 16px 0;
+    float: left;
+    margin-right: 44px;
+    transition: all .15s;
+    -webkit-transition: all .15s;
+    -mz-transition: all .15s;
+    -o-transition: all .15s;
+}
+.imgcard:hover{
+    box-shadow:#666 0 0 9px;
+}
+
+.module-extend .imgcard img{
+    display: block;
+}
+.module-extend .imgcard a{
+    color:#000;
+    text-decoration: none;
+}
+.imgcard .img span {
+    line-height: 56px;
+    font-size: 16px;
+    overflow: hidden;
+    height: 56px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.module .issue {
+    margin-bottom: 50px;
+}
+.issue .module-hd h2 a {
+    height: 86px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/title/title-magazine.jpg) 0 0 no-repeat;
+}
+.issue .module-bd .main {
+    float: left;
+    overflow: hidden;
+    width: 406px;
+    height: 488px;
+    border: 1px solid #ededed;
+}
+.issue .module-bd .main a {
+    display: block;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/global/magzine-issue-bg.jpg) no-repeat;
+    padding-left: 28px;
+}
+.issue .module-bd .main img {
+    margin: -1px;
+    display: block;
+}
+.issue .module-bd .side {
+    float: left;
+    width: 572px;
+    height: 425px;
+    margin-top: 20px;
+    background: #f2f2f2;
+    padding: 25px 0 0 20px;
+}
+.issue .module-bd h3 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.issue .module-bd p {
+    width: 533px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.issue .module-bd ul {
+    margin-top: 20px;
+}
+.issue .module-bd li:first-child {
+    float: left;
+    margin-left:-44px;
+    width: 180px;
+}
+.issue .module-bd li{
+    float: left;
+    width: 180px;
+    margin-right: 3px;
+}
+.issue .module-bd li img {
+    display: block;
+    border: 1px solid transparent;
+}
+
+.collections {
+    margin-bottom: 50px;
+}
+.collections .module-hd .module-title {
+    width: 323px;
+    margin:0 auto;
+    position:relative;
+}
+.collections .module-bd dl {
+    float: left;
+    width: 241px;
+    height: 480px;
+    margin-right: 12px;
+    background: #f2f2f2;
+}
+.collections .module-bd dl:first-child {
+    float: left;
+    width: 241px;
+    height: 480px;
+    margin-left: -40px;
+    background: #f2f2f2;
+}
+.collections .module-bd dl dt {
+    width: 239px;
+    height: 288px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.collections .module-bd dl dt a {
+    display: block;
+    padding-left: 16px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/global/magzine-collections-bg.jpg) no-repeat;
+}
+.collections .module-bd dl dt img {
+    margin: -1px;
+    display:block;
+}
+.collections .module-bd dd {
+    padding: 15px 20px 0;
+    font-size: 14px;
+}
+.collections .module-bd dd a {
+    font-size: 17px;
+}
+.collections .module-hd {
+    margin-top: 108px;
+    margin-bottom: 35px;
+}
+.collections .module-hd .module-title {
+    width: 496px;
+}
+.collections .module-hd h2 a {
+    height: 88px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/title/title-magazine.jpg) 0 -174px no-repeat;
+}
+.clearfix {
+    zoom: 1;
+}

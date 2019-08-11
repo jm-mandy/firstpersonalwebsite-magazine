@@ -1,0 +1,220 @@
+/*ÂÖ²¥Í¼*/
+.carousel-control-next,.carousel-control-prev{
+    width:4%;height:20%;
+    top: 40%;
+    background-color: #e2c0b9;
+    border-radius: 0.25rem;
+}
+.carousel-indicators li{
+    width:0.8rem;height:0.8rem;
+    margin:0px 8px;
+    border-radius: 50%;
+    background-color:#fff;
+}
+.carousel-indicators .active {
+    background-color:#0aa1ed;
+}
+/*part one*/
+.travel {
+    margin-bottom: 50px;
+    background-color: #f2f2f2;
+}
+.module-one {
+    min-width: 1000px;
+}
+.travel .module-hd {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.module-hd {
+    position: relative;
+}
+.module-hd .line{
+    position:absolute;
+    left:0;
+    height:45px;
+    width:100%;
+    border-bottom:1px solid #d8d8d8;;
+}
+.inner-wrapper{
+    width:1000px;
+    position:relative;
+    margin:0 auto;
+}
+.travel .module-hd .module-title{
+    width:475px;
+    position:relative;
+    margin:0 auto;
+}
+.travel .module-hd .module-title h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.travel .module-hd h2 a {
+    height: 88px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/title/title-living.jpg) 0 0 no-repeat;
+    display: block;
+    font-size: 16px;
+    color:#555;
+    text-decoration: none;
+    text-indent: -9999px;
+}
+.travel .module-bd {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.module-one .hsa-border .main {
+    width: 683px;
+    height: 498px;
+    border: 1px solid #c1c1c1;
+    overflow: hidden;
+    float:left;
+}
+.module-one .hsa-border .main a{
+    color:#000;
+    text-decoration: none;
+}
+.module-one .hsa-border img {
+    margin: -1px;
+    display:block;
+}
+.module-one .main .title-mask {
+    width: 685px;
+    height: 95px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/global/mask685.png);
+    position:absolute;
+    bottom:20px;
+    text-align:center;
+}
+.module-one .main .title-mask a{
+    color:#fff;
+    font-size:30px;
+    display:block;
+    margin:20px auto 15px auto;
+    text-shadow:1px 1px 3px #000;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 30px;
+    text-decoration: none;
+}
+.module-one .main .title-mask .des {
+    color: #fff;
+    font-size: 14px;
+    width: 645px;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.module-bd .f1{
+    clear:both;
+}
+.module{
+    min-width: 1000px;
+}
+.module-extend .img-cards {
+
+    margin-top: 45px;
+    padding-bottom: 45px;
+}
+.module-extend .imgcard {
+    width: 300px;
+    border: 1px solid #d8d8d8;
+    padding: 12px 16px 0;
+    float: left;
+    margin-right: 44px;
+    transition: all .15s;
+    -webkit-transition: all .15s;
+    -mz-transition: all .15s;
+    -o-transition: all .15s;
+}
+
+.imgcard:hover{
+    box-shadow:#666 0 0 9px;
+}
+
+.module-extend .imgcard img{
+    display: block;
+}
+.module-extend .imgcard a{
+    color:#000;
+    text-decoration: none;
+}
+.imgcard .img span {
+    line-height: 56px;
+    font-size: 16px;
+    overflow: hidden;
+    height: 56px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dining {
+    margin-bottom: 50px;
+    background-color: #f2f2f2;
+}
+.module-four {
+    min-width: 1000px;
+}
+.dining .module-hd {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.dining .module-hd .module-title {
+    width: 343px;
+}
+.dining .module-hd h2 a {
+    height: 86px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/global/mask685.png) 0 -175px no-repeat;
+}
+.dining .module-hd .module-title h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.dining .module-hd h2 a {
+    height: 86px;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/title/title-living.jpg) 0 0 no-repeat;
+    display: block;
+    font-size: 16px;
+    color:#555;
+    text-decoration: none;
+    text-indent: -9999px;
+}
+.dining .module-hd .module-title{
+    width:475px;
+    position:relative;
+    margin:0 auto;
+}
+.module-four .item-box {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.module-four .item-box a{
+    color:#000;
+    text-decoration: none;
+}
+.module-four .item-box a span {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    background: url(http://css.selfimg.com.cn/vogue/www-v2/images/global/mask685.png) no-repeat center top;
+    text-shadow: 1px 1px 3px #000;
+}
